@@ -1,0 +1,70 @@
+* {
+    font-family: 'Charm';
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../src/images/platter.jpg');
+}
+
+#content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'sans-serif';
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav a:hover,
+.selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+#title {
+    font-family: 'Merienda';
+    font-size: 50px;
+}
+
+main {
+    width: 100%;
+    padding: 64px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
